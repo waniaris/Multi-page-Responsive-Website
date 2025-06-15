@@ -4,10 +4,15 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
+/* Home Page */
 .topnav {
     display: flex;
     justify-content: center;
     position: sticky;
+    z-index: 99;
+    top: 0;
+    width: 100%;
     background-color: goldenrod;
 }
 .topnav ul li {
@@ -66,7 +71,7 @@ img {
     display: inline;
 }
 #bottomabout {
-    width: 1200px;
+    width: 900px;
 }
 .quicklink {
     display: flex;
@@ -83,3 +88,32 @@ img {
     text-decoration: underline;
 }
 
+/* Contact Us Page */
+#img-contact {
+    width:400px;
+    height: 300px;
+}
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    padding: 30px;
+    border: solid #2f2c2c;
+    border-style: double;
+    background-color: rgb(252, 252, 236);
+}
+.contactbox {
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+.button {
+    border-radius: 12 px;
+    background-color: green;
+    color: white 
+}
+.button:hover {
+    font-size: 18px;
+}
