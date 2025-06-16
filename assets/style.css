@@ -61,13 +61,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
 }
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-.topproducts {
-    flex-direction: column;
-  }
-
-}
 .topproduct {
     background-color: white;
     width: 200px;
@@ -158,4 +151,12 @@ h2 {
 #message {
     width: 500px !important;
     height: 100px !important;
+}
+/* Responsive layout */
+@media (max-width: 768px) {
+    .topproducts {
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
 }
