@@ -1,19 +1,17 @@
-- `README.md` includes: Project title, short description, live link, and setup instructions (if needed).
-
-# Grading Rubric: Build a Multi-page Responsive Website
+# Homework 2: Building a Multi-page Responsive Website
 
 ---
 
-### **Technical Implementation – 30%**
+### **Short Description**
 
-Meets the following functional and technical requirements:
+This is a website to promote and sell authentic wild honey, inspired by the actual product called 'Madu Quad' from Malaysia. It contains **four pages**: Home, About, Products, and Contact.
 
-- Uses **Flexbox** for layout and **flexbox alignment** for element positioning.
-- Includes at least **one pseudo-element or pseudo-class** in styling.
-- Utilizes **CSS variables** for color schemes and consistent styling.
-- Contains at least **four pages**: Home, About, Services, Contact.
-- **Navigation bar** is present and correctly links all pages.
-- **Contact page** includes a styled form with name, email, message fields, and a submit button.
-- Pages use **semantic HTML elements** appropriately (`<header>`, `<main>`, `<section>`, `<footer>`).
+### **Live Link**
+
+Live GitHub Pages site:
+https://waniaris.github.io/My-Portfolio/
+
+GitHub repository link:
+https://github.com/waniaris/Multi-page-Responsive-Website
 
 ---

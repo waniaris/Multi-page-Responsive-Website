@@ -165,6 +165,7 @@ h2 {
     display: flex;
     height: 90px;
 }
+
 /* Responsive layout */
 @media (max-width: 768px) {
     .topproducts {
