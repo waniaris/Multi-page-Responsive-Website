@@ -1,8 +1,12 @@
+:root {
+    --maincolor:  goldenrod;
+    --bodycolor:  #f4f4f4;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: var(--bodycolor);
 }
 
 /* Home Page */
@@ -13,7 +17,7 @@ body {
     z-index: 99;
     top: 0;
     width: 100%;
-    background-color: goldenrod;
+    background-color: var(--maincolor);
 }
 .topnav ul li {
     display: flex;
@@ -80,7 +84,7 @@ img {
 .quicklink {
     display: flex;
     justify-content: space-around;
-    background-color: goldenrod;
+    background-color: var(--maincolor);
     padding: 10px;
 }
 .bottomquicklink ul li a {
