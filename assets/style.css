@@ -1,7 +1,13 @@
 :root {
     --maincolor:  goldenrod;
     --bodycolor:  #f4f4f4;
+    --btncolor--: green;
+    --lightcolorbase--: white;
+    --darkcolorbase--: black;
+    --bigboxbackgroundcolor--: lightyellow;
+    --bigboxborderstyle--: double;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -28,13 +34,13 @@ body {
     display: inline;
 }
 .topnav ul li a {
-    color: black;
+    color: var(--darkcolorbase--);
     text-decoration: none;
     font-weight: bold;
     font-size: larger;
 }
 .topnav ul li a:hover {
-    color: white;
+    color: var(--lightcolorbase--);
     text-decoration: underline;
     font-weight: bold;
     font-size: larger;
@@ -66,7 +72,7 @@ img {
     flex-wrap: wrap;
 }
 .topproduct {
-    background-color: white;
+    background-color: var(--lightcolorbase--);
     width: 200px;
     padding: 10px;
     margin: 2px 50px;
@@ -88,11 +94,11 @@ img {
     padding: 10px;
 }
 .bottomquicklink ul li a {
-    color: black;
+    color: var(--darkcolorbase--);
     text-decoration: none;
 }
 .bottomquicklink ul li a:hover {
-    color: white;
+    color: var(--lightcolorbase--);
     text-decoration: underline;
 }
 
@@ -106,9 +112,9 @@ img {
     justify-content: space-evenly;
     font-size: large;
     padding: 30px;
-    border: solid #2f2c2c;
-    border-style: double;
-    background-color: rgb(252, 252, 236);
+    border: solid var(--darkcolorbase--);
+    border-style: var(--bigboxborderstyle--);
+    background-color: var(--bigboxbackgroundcolor--);
 }
 h2 {
     display: flex;
@@ -133,9 +139,9 @@ h2 {
     justify-content: space-evenly;
     font-size: large;
     padding: 30px;
-    border: solid #2f2c2c;
-    border-style: double;
-    background-color: rgb(252, 252, 236);
+    border: solid var(--darkcolorbase--);
+    border-style: var(--bigboxborderstyle--);
+    background-color: var(--bigboxbackgroundcolor--);
 }
 .contactbox {
     width: 500px;
@@ -146,8 +152,8 @@ h2 {
 }
 .button {
     border-radius: 12 px;
-    background-color: green;
-    color: white 
+    background-color: var(--btncolor--);
+    color: var(--lightcolorbase--);
 }
 .button:hover {
     font-size: 18px;
