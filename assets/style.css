@@ -83,6 +83,16 @@ img {
     border-color: grey;
     box-shadow: rgb(73, 70, 70) 5px 5 px;
     display: inline;
+    transition: transform 0.3s ease;
+}
+.topproduct:hover {
+    transform: scale(1.2);
+}
+#btn-buy:hover {
+    border-radius: 12 px;
+    font-size: 18px;
+    background-color: var(--btncolor--);
+    color: var(--lightcolorbase--);
 }
 #bottomabout {
     width: 80%;
@@ -155,15 +165,24 @@ h2 {
 }
 .button {
     border-radius: 12 px;
-    background-color: var(--btncolor--);
-    color: var(--lightcolorbase--);
 }
 .button:hover {
     font-size: 18px;
+    background-color: var(--btncolor--);
+    color: var(--lightcolorbase--);
 }
 #message {
     display: flex;
     height: 90px;
+}
+#lbl-username::before {
+    content: "🖝";
+}
+#lbl-email::before {
+    content: "📧";
+}
+#lbl-message::before {
+    content: "📰";
 }
 
 /* Responsive layout */
@@ -176,4 +195,24 @@ h2 {
     #img-contact {
         object-fit: cover;
     }
+    #aboutvideo {
+        display: none;
+    }
+}
+
+@media (max-width: 459px) {
+    #img-contact {
+        display: none;
+    }
+    .div-contact-form {
+        margin-left: 0;
+        padding: 0;
+    }
+    .contact {
+        display: flex;
+        justify-content: center;
+    }
+    .topnav ul li a {
+    font-size: 16px;
+}
 }
