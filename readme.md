@@ -9,9 +9,9 @@ This is a website to promote and sell authentic wild honey, inspired by the actu
 ### **Live Link**
 
 Live GitHub Pages site:
-https://waniaris.github.io/Multi-page-Responsive-Website/
+https://waniaris.github.io/Migrating-a-Site-to-Bootstrap/
 
 GitHub repository link:
-https://github.com/waniaris/Multi-page-Responsive-Website
+https://github.com/waniaris/Migrating-a-Site-to-Bootstrap#
 
 ---
